@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    font-family:'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#bgimg{
+    background-image: url("musicc.png");
+    background-attachment: fixed;
+}
+.sideme{
+
+}
+#imgone{
+    color: skyblue;
+    opacity: 0.8;
+    padding: 3em;
+    margin: 2em;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+}
+#imgtwo{
+    color:skyblue;
+    opacity: 0.8;
+    padding: 3em;
+    margin: 2em;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+}
+#imgthree{
+    color: skyblue;
+    opacity: 0.8;
+    padding: 3em;
+    margin: 2em;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+}
+.form-container{
+    opacity: 0.9;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    color: white;
+    padding: 2em;
+    width: 60%;
+    background: linear-gradient(black, gray);
+    border-radius: 25px;
+    box-shadow: -6px 6px 12px #b4b4b4, 6px -6px 12px 
+}
+header{
+    opacity: 0.9;
+    background-attachment: fixed;
+    margin-bottom: 1em;
+    font-size: larger;
+    background-color: black;
+    padding: 1em;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    box-shadow: -6px 6px 12px #b4b4b4, 6px -6px 12px 
+}
+#header-logo{
+    width:64px;
+    height:64px;
+}
+#header-msg{
+    font-size: 25px;
+    color: white;
+}
+#btnOne{
+    background-color: skyblue;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#tableHead{
+    opacity: 0.8;
+    background-color: black;
+}
+#tableBody{
+    color: skyblue;
+    opacity: 0.9;
+    background-color: gray;
+}
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
+
+table, tr, img{
+	height:80px;
+	width: 80px;
+}
